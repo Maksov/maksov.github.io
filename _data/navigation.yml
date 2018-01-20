@@ -1,29 +1,12 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
-  - title: "Мои проекты"
-    url: /projects/
-  - title: "PyNEng online"
-    url: /pyneng-online/
-  - title: "About"
-    url: /about/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  #- title: "Sitemap"
-  #  url: /sitemap/
-links:
-  - title: Текущие проекты
-    children:
-      - title: To Read
-        url: /to-read/
-      - title: ToSee talks
-        url: /todo-talks/
-      - title: 100 Days Of Clojure
-        url: /100daysofclojure/
-      - title: 100 Days Of Python
-        url: /100daysofpython/
-      - title: 100 Days Of Kettlebells
-        url: /100daysofkettlebell/
+  # - title: "Sitemap"
+  #   url: /sitemap/
