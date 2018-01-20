@@ -9,11 +9,11 @@
 locale                   : "en"
 title                    : "Time To Learn"
 title_separator          : "-"
-name                     : "Наташа Самойленко"
+name                     : "Овчинников Максим"
 description              : " "
-url                      : "https://natenka.github.io"
+url                      : "https://nmaksov.github.io"
 baseurl                  :
-repository               : "natenka/natenka.github.io"
+repository               : "maksov/maksov.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -70,26 +70,26 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal"
+  provider               : ""
   google:
-    tracking_id          : "UA-87357288-1"
+    tracking_id          : ""
 
 
 # Site Author
 author:
-  name             : "Наташа Самойленко"
+  name             : "Овчинников Максим"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : " "
   location         :
-  email            : "nataliya.samoylenko@gmail.com"
+  email            : "maksov4@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "samoylenko.natasha"
+  facebook         : 
   foursquare       :
-  github           : "natenka"
+  github           : "maksov"
   google_plus      :
   keybase          :
   instagram        :
@@ -105,8 +105,8 @@ author:
   weibo            :
   xing             :
   youtube          :
-  goodreads        : "59424483-natasha-samoylenko"
-  saythanks        : "natenka"
+  goodreads        : 
+  saythanks        : 
 
 
 # Reading Files
