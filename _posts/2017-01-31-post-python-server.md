@@ -6,8 +6,8 @@ categories:
 ---
 
 Данная статья в рамках обучения по курсу Python. Описывает процесс создания простейшего tcp сервера, 
-слушающего соединения на порту и отправляющего в ответ на соединение response ответ, и клиента, отправляющего 
-presence сообщение.
+слушающего соединения на порту и отправляющего в ответ на соединение response ответ, и клиента, 
+отправляющего presence сообщение.
 
 В дальнейшем это будет чат-сервер. Для обмена будет использоваться JIM IM Protocol.
 
@@ -65,7 +65,8 @@ class CServer:
     def __init__(self, config):
         self.config = config
         try:
-            self._server_sock = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0)  # TCP
+            self._server_sock = /
+            socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM, proto=0)  # TCP
             self._server_sock.bind(config)
             self._server_sock.listen(5)
         except OSError as err:
@@ -146,7 +147,8 @@ class CClient:
 
     def connect_srv(self):
         '''
-        Функция для соединения с сервером. Отправялет presence-сообщение серверу. Получает ответ и выводит его.
+        Функция для соединения с сервером. Отправялет presence-сообщение серверу. 
+        Получает ответ и выводит его.
         '''
         try:
             self._sock.connect(self.config)
@@ -210,7 +212,8 @@ import TCP.tcp_server as serv
 
 if __name__ == "__main__":
 
-    ipv4_address = re.compile('^(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$')
+    ipv4_address = /
+    re.compile('^(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$')
     patern_port = re.compile('[80-65536]')
     argv = sys.argv[1:]
 
@@ -230,7 +233,8 @@ if __name__ == "__main__":
 ```
 if __name__ == "__main__":
 
-    ipv4_address = re.compile('^(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$')
+    ipv4_address = /
+    re.compile('^(?:(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}(?:[0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$')
     patern_port = re.compile('[80-65536]')
     argv = sys.argv[1:]
     config =  ()
